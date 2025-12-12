@@ -12,4 +12,4 @@
 
 ## Notes
 - These scripts are cleaned and anonymized versions of original scripts, Claude AI has been used for cleaning.
-- Repo will be udpated when the articles, for which these scripts were developed for, are published.
+- Repo will be udpated when the articles for which these scripts were developed for are published.

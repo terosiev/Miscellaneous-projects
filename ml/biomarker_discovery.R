@@ -1,7 +1,6 @@
 # Script: Nested cross-validation for logistic and Cox regresion with feature selection
 # Purpose: To test if blood-based features predict treatment response in cancer patients
 # Date: 11.12.2025
-# Note: Claude.ai was used to clean the original script
 
 # Load libraries
 library(glmnet)

@@ -84,7 +84,7 @@ Your `metadata.csv` should contain:
 ### 1. Quality Control
 
 ```r
-source("qc_anonymized.R")
+source("qc.R")
 ```
 
 **Outputs:**
@@ -96,7 +96,7 @@ source("qc_anonymized.R")
 ### 2. Differential Expression Analysis
 
 ```r
-source("de_anonymized.R")
+source("de.R")
 ```
 
 **Outputs:**
@@ -108,7 +108,7 @@ source("de_anonymized.R")
 ### 3. Over-Representation Analysis
 
 ```r
-source("ora_anonymized.R")
+source("ora.R")
 ```
 
 **Outputs:**
@@ -119,7 +119,7 @@ source("ora_anonymized.R")
 ### 4. Gene Set Enrichment Analysis
 
 ```r
-source("gsea_anonymized.R")
+source("gsea.R")
 ```
 
 **Outputs:**

@@ -1,16 +1,16 @@
 # Longitudinal RNA-seq Analysis Workflow
 
-**Author:** Tero Sievänen  
+**Author:** terosiev 
 **Description:** Complete workflow for longitudinal RNA-seq differential expression analysis with quality control, pathway enrichment, and gene set enrichment analysis.
 
 ## Overview
 
 This workflow implements a comprehensive analysis pipeline for longitudinal RNA-seq data using limma-voom with duplicate correlation to account for repeated measures on the same subjects. The pipeline includes:
 
-1. **Quality Control** (`qc_anonymized.R`) - Data preprocessing, filtering, and normalization
-2. **Differential Expression** (`de_anonymized.R`) - Longitudinal DE analysis with limma-voom
-3. **Over-Representation Analysis** (`ora_anonymized.R`) - Gene Ontology enrichment analysis
-4. **Gene Set Enrichment Analysis** (`gsea_anonymized.R`) - GSEA using MSigDB gene sets
+1. **Quality Control** (`qc.R`) - Data preprocessing, filtering, and normalization
+2. **Differential Expression** (`de.R`) - Longitudinal DE analysis with limma-voom
+3. **Over-Representation Analysis** (`ora.R`) - Gene Ontology enrichment analysis
+4. **Gene Set Enrichment Analysis** (`gsea.R`) - GSEA using MSigDB gene sets
 
 ## Key Features
 
@@ -205,10 +205,6 @@ If you use this workflow, please cite the key packages:
 - **limma**: Ritchie ME, et al. (2015). Nucleic Acids Research.
 - **edgeR**: Robinson MD, et al. (2010). Bioinformatics.
 - **clusterProfiler**: Yu G, et al. (2012). OMICS.
-
-## Contact
-
-For questions or issues, please contact: [your email or GitHub]
 
 ## License
 

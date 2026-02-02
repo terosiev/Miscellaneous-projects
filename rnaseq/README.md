@@ -1,6 +1,6 @@
 # Longitudinal RNA-seq Analysis Workflow
 
-**Author:** terosiev 
+**Author:** terosiev
 **Description:** Complete workflow for longitudinal RNA-seq differential expression analysis with quality control, pathway enrichment, and gene set enrichment analysis.
 
 ## Overview

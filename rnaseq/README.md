@@ -8,7 +8,7 @@
 This workflow implements a comprehensive analysis pipeline for longitudinal RNA-seq data using limma-voom with duplicate correlation to account for repeated measures on the same subjects. The pipeline includes:
 
 1. **Quality Control** (`qc.R`) - Data preprocessing, filtering, and normalization
-2. **Differential Expression** (`de.R`) - Longitudinal DE analysis with limma-voom
+2. **Differential Expression** (`de_longitudinal.R`) - Longitudinal DE analysis with limma-voom
 3. **Over-Representation Analysis** (`ora.R`) - Gene Ontology enrichment analysis
 4. **Gene Set Enrichment Analysis** (`gsea.R`) - GSEA using MSigDB gene sets
 

@@ -3,7 +3,7 @@
 - If you want to know more, please send an email to tero.sievanen@uef.fi
 
 ## Update
-- Latest: 11.12.2025
+- Latest: 2.2.2026
 
 ## Scripts
 - /ml = machine learning analysis scripts
